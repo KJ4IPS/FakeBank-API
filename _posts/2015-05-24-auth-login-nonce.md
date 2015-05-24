@@ -1,4 +1,5 @@
 ---
+weight: 100
 category: authentication
 path: /auth/login/nonce
 title: 'Get nonce for login'
@@ -21,7 +22,7 @@ Sends back a nonce
 ```{
 	nonce: 123457890123456789012345678901,
 	token: 987654321039393481239784912384,
-	expire: 1234567890
+	expire: 50
 }
 ```
 
@@ -39,7 +40,7 @@ Retry-After: 123```
 **retry-after** MAY contain the number of seconds to wait before trying again.
 
 ### Administratively Down
-If the system is disallowing new logins for an administrative reasion (planned maintnence, distater control, etc.)
+If the system is disallowing new logins for an administrative reasion (planned maintnence, disaster control, etc.)
 
 ```Status: 503```
 ```{ 
