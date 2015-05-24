@@ -1,4 +1,7 @@
 # FakeBank-API
+
+**View At http://kj4ips.github.io/FakeBank-API**
+
 These are the API docs for FakeBank's (a fictional bank) internal systems, they are used by FakeBank's mobile apps, as well as their AJAX based web interface.
 
 ## Licensing
